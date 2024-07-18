@@ -237,17 +237,9 @@ License URI: http://themeforest.net/licenses/regular_extended
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 114, ../../sass/_background.scss */
-.bg-box .video-bg + .layer {
-  background: transparent;
-}
-/* line 119, ../../sass/_background.scss */
+/* line 116, ../../sass/_background.scss */
 .bg-box .video-bg.second-version {
   background-image: url("../../lib/img/background-6.jpg");
-}
-/* line 122, ../../sass/_background.scss */
-.bg-box .video-bg.second-version + .layer {
-  background: rgba(63, 70, 213, 0.9);
 }
 @media only screen and (max-width: 767px) {
   /* line 1, ../../sass/_background.scss */
@@ -1131,9 +1123,9 @@ header {
 }
 /* line 31, ../../sass/_header.scss */
 .brand a {
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
   display: block;
   top: 50%;
   position: relative;
@@ -2995,55 +2987,51 @@ span.countdown-period:after {
 .underconstruction .bg-box .static-bg {
   background-image: url("../../lib/img/underconstruction.jpg");
 }
-/* line 9, ../../sass/_underconstruction.scss */
-.underconstruction .bg-box .static-bg + .layer {
-  background: rgba(0, 0, 0, 0.6);
-}
-/* line 14, ../../sass/_underconstruction.scss */
+/* line 11, ../../sass/_underconstruction.scss */
 .underconstruction header {
   position: static;
   margin-top: 47px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 18, ../../sass/_underconstruction.scss */
+  /* line 15, ../../sass/_underconstruction.scss */
   .underconstruction header .brand {
     margin: 0;
     position: relative;
     z-index: 99;
   }
 }
-/* line 25, ../../sass/_underconstruction.scss */
+/* line 22, ../../sass/_underconstruction.scss */
 .underconstruction header .share {
   line-height: 80px;
   padding: 0;
   text-align: right;
 }
-/* line 30, ../../sass/_underconstruction.scss */
+/* line 27, ../../sass/_underconstruction.scss */
 .underconstruction header .share .share-button {
   bottom: 3px;
 }
-/* line 33, ../../sass/_underconstruction.scss */
+/* line 30, ../../sass/_underconstruction.scss */
 .underconstruction header .share .share-button > img {
   display: initial;
 }
-/* line 38, ../../sass/_underconstruction.scss */
+/* line 35, ../../sass/_underconstruction.scss */
 .underconstruction header .share .social > a {
   margin: 0 0 0 6px;
   padding: 0 0 0 6px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 25, ../../sass/_underconstruction.scss */
+  /* line 22, ../../sass/_underconstruction.scss */
   .underconstruction header .share {
     line-height: 55px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 14, ../../sass/_underconstruction.scss */
+  /* line 11, ../../sass/_underconstruction.scss */
   .underconstruction header {
     margin-top: 25px;
   }
 }
-/* line 52, ../../sass/_underconstruction.scss */
+/* line 49, ../../sass/_underconstruction.scss */
 .underconstruction main section {
   padding-top: 25px;
   margin: 0;
@@ -3051,39 +3039,39 @@ span.countdown-period:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
 }
-/* line 57, ../../sass/_underconstruction.scss */
+/* line 54, ../../sass/_underconstruction.scss */
 .underconstruction main section .section-content-wrapper {
   position: relative;
 }
-/* line 60, ../../sass/_underconstruction.scss */
+/* line 57, ../../sass/_underconstruction.scss */
 .underconstruction main section .section-content-wrapper .section-content {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 64, ../../sass/_underconstruction.scss */
+/* line 61, ../../sass/_underconstruction.scss */
 .underconstruction main section .section-content-wrapper .section-content .section-main-title {
   margin-bottom: 25px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 51, ../../sass/_underconstruction.scss */
+  /* line 48, ../../sass/_underconstruction.scss */
   .underconstruction main {
     top: 0;
     padding: 0;
   }
 }
-/* line 75, ../../sass/_underconstruction.scss */
+/* line 72, ../../sass/_underconstruction.scss */
 .underconstruction footer {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-/* line 78, ../../sass/_underconstruction.scss */
+/* line 75, ../../sass/_underconstruction.scss */
 .underconstruction footer .copyright p {
   padding-top: 0px;
   padding-bottom: 0px;
   padding: 0;
 }
 @media only screen and (max-width: 767px) {
-  /* line 75, ../../sass/_underconstruction.scss */
+  /* line 72, ../../sass/_underconstruction.scss */
   .underconstruction footer {
     padding-top: 30px;
     padding-bottom: 30px;
